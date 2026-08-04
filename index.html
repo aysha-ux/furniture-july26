@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn ln -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montenegrin+Gothic+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <a class="brand" href="">
+            <i class="fa-solid fa-couch"></i>
+            <span class="brandName">MYFurniture</span>
+        </a>
+
+        <!-- checkbox -->
+        <input id="check" type="checkbox">
+        <label for="check" class="icons">
+            <!-- menu icon -->
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <!-- cancel icon -->
+            <i id="cancelicon" class="fa-solid fa-x"></i>
+        </label>
+
+        <ul class="navLinks">
+            <li class="links"><a class="link" href="#home">Home</a></li>
+            <li class="links"><a class="link" href="#products">Products</a></li>
+            <li class="links"><a class="link" href="#about">About</a></li>
+            <li class="links"><a class="link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <section id="home" class="hero">
+
+        <!-- text content -->
+        <div class="herotext">
+            <h1 class="herotitle">MODERN FURNITURE FOR YOUR HOME</h1>
+            <p class="heropara">DISCOVER STYLISH AND COMFORTABLE FURNITURE FOR YOUR LIVING ROOM,BEDROOM AND OFFICE.</p>
+            <button class="herobutton">Shop now</button>
+        </div>
+
+        <!-- image content  -->
+        <div class="furnitureimage">
+            <img  class="furnitureimage" src="./image/Elegant Upholstered Chairs.png" alt="no image">
+        </div>
+    </section>
+
+    <!-- products section(section.products + enter) -->
+    <section id="products" class="products">
+        <!-- heading -->
+        <h2 class="producthead">OUR PRODUCTS</h2>
+
+        <!-- product container -->
+        <div class="productcontainer">
+            <!-- card1 -->
+            <div class="card">
+                <!-- image -->
+                <img class="cardimg" src="./image/Screenshot 2026-07-31 105224.png" alt="">
+                <!-- product name -->
+                <h3 class="productname">SOFA</h3>
+                <!-- price -->
+                <p class="price">$200</p>
+                <!-- button -->
+                <button class="herobutton">Shop Now</button>
+            </div>
+            <!-- card 2 -->
+            <div class="card">
+                <!-- image -->
+                <img class="cardimg" src="./image/Screenshot 2026-07-31 105237.png" alt="">
+                <!-- product name -->
+                <h3 class="productName">CHAIR</h3>
+                <!-- price -->
+                <p class="price">$300</p>
+                <!-- button -->
+                <button class="herobutton">Shop Now</button>
+            </div>
+            <!-- card3 -->
+            <div class="card">
+                <!-- image -->
+                <img class="cardimg" src="./image/Screenshot 2026-07-31 105249.png" alt="">
+                <!-- product name -->
+                <h3 class="productName">LAMP</h3>
+                <!-- price -->
+                <p class="price">$100</p>
+                <!-- button -->
+                <button class="herobutton">Shop Now</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- banner -->
+    <section id="about" class="banner">
+        <h2 class="abouthead">About Us</h2>
+        <p class="aboutpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius nulla at nihil culpa vitae
+            et velit ullam? Veritatis, nobis tempora iusto cupiditate incidunt rerum! Soluta consequatur expedita
+            accusamus voluptatibus officiis.2</p>
+        <button class="herobutton aboutbutton">Let's Talk</button>
+    </section>
+
+    <!-- footer -->
+    <section id="contact" class="contact">
+        <!-- contact -->
+        <div class="contactdiv">
+            <h3 class="contacthead">Contact Us</h3>
+            <h4 class="contactphone">+001-545555</h4>
+            <p class="contactmail">info@gmail.com</p>
+
+            <div class="socialicon">
+                
+             <a class="iconlink" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+             <a class="iconlink" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+             <a class="iconlink" href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+
+            </div>
+        </div>
+
+        <!-- subscribe -->
+         <div class="subscribe">
+            <h3 class="subhead">Join Us Mail</h3>
+            <div class="box">
+                <input type="mail" placeholder="Email" class="subinput">
+                <button class="subbutton">Join</button>
+            </div>
+         </div>
+    </section>
+
+    <!-- foot -->
+     <p class="footer"> &copy; Designed by July 2026 Luminar Technolab,All rights reserved</p>
+
+
+</body>
+
+</html>
